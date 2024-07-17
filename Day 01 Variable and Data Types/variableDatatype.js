@@ -36,5 +36,6 @@ const day1Complete = true;
 console.log("Day 1 Challege Complete : ", day1Complete);
 day1Complete = false;
 console.log("Day 1 Challege Complete : ", day1Complete);
+// TypeError: Assignment to constant variable.
 
 
