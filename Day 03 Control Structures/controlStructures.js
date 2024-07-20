@@ -93,3 +93,12 @@ console.log(evenOrOdd(5));
 console.log(evenOrOdd(12));
 // Activity 5: Combining Conditions
 // Task 7: Leap Year
+function isLeapYear(year){
+    if((year%100!==0 && year%4===0) ||(year%400===0) ){
+        return `The ${year} is a leap year`;
+    }else{
+        return `The ${year} is not a leap year`
+    }
+}
+console.log(isLeapYear(2024));
+console.log(isLeapYear(2023));
